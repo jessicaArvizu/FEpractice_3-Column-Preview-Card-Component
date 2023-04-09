@@ -1,0 +1,110 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+$font-family-Big-Shoulders: 'Big Shoulders Display', cursive;
+$font-family-Lexend-Deca: 'Lexend Deca', sans-serif;
+
+/* Colors */
+//Primary
+$brightOrange: hsl(31, 77%, 52%);
+$darkCyan: hsl(184, 100%, 22%);
+$veryDarkCyan: hsl(179, 100%, 13%);
+
+//Neutral 
+$transparentWhite: hsla(0, 0%, 100%, 0.75); //Paragraphs.
+$veryLightGray: hsl(0, 0%, 95%); //Background, Headings, Buttons.
+
+* {
+    font-family: $font-family-Lexend-Deca;
+    color: $veryLightGray;
+    font-size: 15px;
+}
+
+main {
+    background-color: $veryLightGray;
+
+    section {
+        .main-container {
+            .row {
+
+                .cols {
+                    padding: 40px;
+
+                    p {
+                        color: $transparentWhite;
+                    }
+
+                    h1 {
+                        font-family: $font-family-Big-Shoulders;
+                    }
+
+                    .btn {
+                        border-radius: 40px;
+                        border: none;
+                        padding: 8px 30px;
+                    }
+                }
+
+                .sedan-col {
+                    background-color: $brightOrange;
+
+                    .learn-more-btn {
+                        color: $brightOrange;
+                        background-color: $veryLightGray;
+
+                        &:active,
+                        &:hover {
+                            background-color: $brightOrange;
+                            color: $veryLightGray;
+                            border: 2px solid $veryLightGray;
+                        }
+                    }
+                }
+
+                .suv-col {
+                    background-color: $darkCyan;
+
+                    .learn-more-btn {
+                        color: $darkCyan;
+                        background-color: $veryLightGray;
+
+                        &:active,
+                        &:hover {
+                            background-color: $darkCyan;
+                            color: $veryLightGray;
+                            border: 2px solid $veryLightGray;
+                        }
+                    }
+                }
+
+                .luxury-col {
+                    background-color: $veryDarkCyan;
+
+                    .learn-more-btn {
+                        color: $veryDarkCyan;
+                        background-color: $veryLightGray;
+
+                        &:active,
+                        &:hover {
+                            background-color: $veryDarkCyan;
+                            color: $veryLightGray;
+                            border: 2px solid $veryLightGray;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+footer {
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+        color: $veryDarkCyan;
+
+        a {
+            color: hsl(228, 45%, 44%);
+        }
+    }
+}

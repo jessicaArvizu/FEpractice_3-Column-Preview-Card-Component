@@ -1,0 +1,73 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+/* Colors */
+* {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsl(0, 0%, 95%);
+  font-size: 15px;
+}
+
+main {
+  background-color: hsl(0, 0%, 95%);
+}
+main section .main-container .row .cols {
+  padding: 40px;
+}
+main section .main-container .row .cols p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+main section .main-container .row .cols h1 {
+  font-family: "Big Shoulders Display", cursive;
+}
+main section .main-container .row .cols .btn {
+  border-radius: 40px;
+  border: none;
+  padding: 8px 30px;
+}
+main section .main-container .row .sedan-col {
+  background-color: hsl(31, 77%, 52%);
+}
+main section .main-container .row .sedan-col .learn-more-btn {
+  color: hsl(31, 77%, 52%);
+  background-color: hsl(0, 0%, 95%);
+}
+main section .main-container .row .sedan-col .learn-more-btn:active, main section .main-container .row .sedan-col .learn-more-btn:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+}
+main section .main-container .row .suv-col {
+  background-color: hsl(184, 100%, 22%);
+}
+main section .main-container .row .suv-col .learn-more-btn {
+  color: hsl(184, 100%, 22%);
+  background-color: hsl(0, 0%, 95%);
+}
+main section .main-container .row .suv-col .learn-more-btn:active, main section .main-container .row .suv-col .learn-more-btn:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+}
+main section .main-container .row .luxury-col {
+  background-color: hsl(179, 100%, 13%);
+}
+main section .main-container .row .luxury-col .learn-more-btn {
+  color: hsl(179, 100%, 13%);
+  background-color: hsl(0, 0%, 95%);
+}
+main section .main-container .row .luxury-col .learn-more-btn:active, main section .main-container .row .luxury-col .learn-more-btn:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+}
+
+footer .attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(179, 100%, 13%);
+}
+footer .attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/*# sourceMappingURL=styles.css.map */
