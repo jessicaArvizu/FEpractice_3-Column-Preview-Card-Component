@@ -35,7 +35,6 @@ main {
             max-width: 800px;
 
             .row {
-
                 .cols {
                     padding: 40px;
 
@@ -45,6 +44,7 @@ main {
                         width: 100%;
                         height: 100%;
                         position: relative;
+                        margin-bottom: 100px;
                     }
 
                     p {
@@ -131,10 +131,14 @@ main {
 
 
 footer {
+    background-color: $veryLightGray;
     .attribution {
         font-size: 11px;
         text-align: center;
-        color: $veryDarkCyan;
+
+        p{
+            color: $veryDarkCyan;
+        }
 
         a {
             color: hsl(228, 45%, 44%);
@@ -148,6 +152,12 @@ footer {
         margin: 30px;
         .main-container{
             .row{
+
+                .cols{
+                    .col-container{
+                        margin-bottom: 40px !important;
+                    }
+                }
                 .sedan-col{
                     border-top-right-radius: 12px !important;
                     border-top-left-radius: 12px !important;
